@@ -8,7 +8,7 @@ import ProjectsShowcase from "./components/ProjectShowcase/ProjectShowcase";
 // import ProjectPage from "./pages/ProjectPage";
 import Edushare from "./components/edushare/edushare";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import SikkimTourism from "./components/SikkimTourism/sikkimTourism";
+import SikkimTourism from "./components/SikkimTourism/SikkimTourism";
 import Indus from "./components/Indus/Indus";
 import Education from "./components/education/education";
 import ContactForm from "./components/contact/ContactForm";
