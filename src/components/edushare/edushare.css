@@ -1,0 +1,84 @@
+.edu-project-page {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* padding: 20px; */
+  }
+  
+  .edu-banner {
+    margin: 10px;
+    width: 100%;
+    height: 35vh; /* Fixed Banner Height */
+    overflow: hidden; /* Crop Extra Image */
+    display: flex;
+    justify-content: center;
+    border-radius: 10px; /* Optional */
+    position: relative;
+  }
+  
+  .edu-banner-image {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; /* Fills and Crops */
+    object-position: center; /* Crops from Top */
+    /* transition: transform 0.4s ease-in-out; */
+  }
+/*   
+  .banner:hover .banner-image {
+    transform: scale(1.1); Zoom Effect on Hover
+  } */
+  
+  .edu-project-content {
+    align-items: start;
+    /* justify-content: left; */
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 80%;
+    text-align: justify;
+  }
+  
+/*   
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  } */
+  
+
+  .edu-credits{
+    text-decoration: none;
+    color: black;
+  }
+
+    .edu-credits:hover{
+      text-decoration: underline;
+        color: black;
+        cursor: pointer;
+    }
+
+    .edu-github-black{
+        display: flex;
+        gap: 10px;
+    align-items: center;
+   margin-right: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+        background-color: #26292E;
+    }
+
+    .edu-project-title{
+        padding: 1%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }

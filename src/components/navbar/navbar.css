@@ -1,0 +1,53 @@
+.navbar {
+  width: 100%;
+  background: #F8FFE5; 
+  /* backdrop-filter: blur(10px); */
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li:hover {
+  color: #06D7A0; /* Hover Color */
+}
+
+.navbar ul li.active {
+  color: #06D7A0; /* Active Tab */
+}
+
+.navbar ul li.active::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #06D7A0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}

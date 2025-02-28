@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.about-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .about-text {
+    margin-top: 50px;
+    flex: 2;
+    padding-right: 20px;
+  }
+  
+  .about-name {
+    margin: 0   ;
+    font-family: "Titillium Web";
+  font-weight: 900;
+  
+    font-size: 128px;
+    letter-spacing: 3px;
+    color: #06D7A0;
+  }
+  
+  .about-description {
+    font-size: 27px;
+    color: #333;
+    margin-top: 10px;
+    margin-left: 10vw;
+    margin-right: 19vw;
+}
+  
+  .highlight {
+    color: #06D7A0;
+    font-weight: bold;
+  }
+  
+  .about-role {
+    font-size: 18px;
+    color: #06D7A0;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  
+  .about-image-container {
+    margin-top: 50px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image {
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .Resume{
+
+    background-color: #06D7A0;
+    color: #F8FFE5;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-left: 10vw;
+  }

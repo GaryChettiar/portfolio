@@ -1,0 +1,85 @@
+body {
+    background-color: #f7fbe6;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-container {
+    text-align: left;
+    padding: 50px;
+  }
+  
+  .contact-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .form-wrapper {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 8px;
+    width: 25vw;
+    margin: auto;
+  }
+  
+  .input-field {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7fbe6;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 80px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #00d19d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #00a87a;
+  }
+  
+  .social-links {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .divider {
+    width: 100px;
+    display: inline-block;
+    border-top: 1px solid black;
+    margin: 10px;
+  }
+  
+  .or-text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .icons {
+    margin-top: 15px;
+  }
+  
+  .icons a {
+    margin: 0 10px;
+  }
+  
+  .icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
