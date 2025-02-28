@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Navbar.css";
+import "./navbar.css";
 
 const Navbar = ({ scrollToSection, homeRef, aboutRef, skillsRef, projectsRef,eduRef ,contactRef}) => {
   const [activeTab, setActiveTab] = useState("Home");
